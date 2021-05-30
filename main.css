@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(219, 227, 235);
+}
+div{
+    width: 20%;
+    background-color:rgb(249, 249, 250);
+    text-align: center;
+    position: relative;
+    left:40%;
+    top: 150px; 
+    min-width: 200px;
+}
+div input, header{
+    margin: 5px;
+    width: 90%;
+}
+#logo{
+    width: 250px;
+    position: relative;
+    bottom: 150px;
+}
+footer{
+    background: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+ 
